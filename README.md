@@ -86,4 +86,4 @@
   <li>have some icons?</li>
 </ul>
 
-Credit: https://github.com/florinpop17/10-projects-10-hours
+Idea: https://github.com/florinpop17/10-projects-10-hours
