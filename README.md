@@ -5,7 +5,7 @@ Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
 <ol>
   <li>  future date</li>
   <li>  timer</li>
- </ol>
+</ol>
 
 2. Quiz App
 Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
