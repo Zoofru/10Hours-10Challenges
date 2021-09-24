@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.quiz-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.q1, .q2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.btnsubmitq1, .btnsubmitq2 {
+    margin-top: 20px;
+    width: 20vw;
+    height: 6vh;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnsubmitq1:hover, .btnsubmitq2:hover {
+    cursor: pointer;
+}
+
+.quiz {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 50%;
+    border-radius: 10px;
+}

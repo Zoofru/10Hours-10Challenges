@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class='quiz-cont'>
+        <div class='quiz'>
+            <div class='content'>
+                <div class="q1">
+                    <h3>What is 5+5?</h3>
+                    <select id='q1answer'>
+                        <option value='10'>10</option>
+                        <option value='11'>11</option>
+                        <option value='55'>55</option>
+                        <option value='0'>0</option>
+                    </select>
+                    <button class='btnsubmitq1'>Submit</button>
+                </div>
+                <div class="q2 hidden">
+                    <h3>What is 10+5?</h3>
+                    <select id='q2answer'>
+                        <option value='15'>15</option>
+                        <option value='5'>5</option>
+                        <option value='20'>20</option>
+                        <option value='12'>12</option>
+                    </select>
+                    <button class='btnsubmitq2'>Submit</button>
+                </div>
+                <h3 class='score hidden'>Your Score: <span class='scorenum'>0</span></h3>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src='./script.js' type="module"></script>
+</html>

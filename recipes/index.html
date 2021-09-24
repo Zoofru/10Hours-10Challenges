@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./style.css'>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Recipe Challenge</title>
+</head>
+<body>
+    <div class='title'>
+        <h1 id='titRecipeTop'>10 Hours 10 Challenges</h1>
+        <h1 id=titRecipe>Recipes</h1>
+    </div>
+    <div class='quickSearch'>
+        <div class='qs chicken'>
+            <img id='quickSearchImg' src='https://assets.epicurious.com/photos/5732526f1877f76a0e20831c/master/pass/EP_05102016_PeruvianStyleRoastChicken_recipe_.jpg' alt='chicken'>
+            <p>Chicken</p>
+        </div>
+
+        <div class="qs pasta">
+            <img id='quickSearchImg' src='https://www.saltandlavender.com/wp-content/uploads/2018/07/creamy-garlic-pasta-recipe-2.jpg' alt='pasta'>
+            <p>Pasta</p>
+        </div>
+
+        <div class='qs dessert'>
+            <img id='quickSearchImg' src='https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dessert-main-image-molten-cake-0fbd4f2.jpg?quality=90&resize=500,454' alt='dessert'>
+            <p>Dessert</p>
+        </div>
+
+        <div class='qs liked'>
+            <img id='quickSearchImg' src="data:image/png;base64,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">
+            <p>Liked</p>
+        </div>
+
+    </div>
+    <div class='recipesCont'>
+        <div class='recipes'></div>
+    </div>
+
+    <div class='modal'>
+        <div class='modalContent'>
+            <span class="close">&times;</span>
+            <img class='modalImg' src=''>
+            <h3 class='modalRecName'></h3>
+            <p class='modalRecDesc'></p>
+            <div class='modalRecInstruction'></div>
+        </div>
+    </div>
+    <div class='likedRec'></div>
+</body>
+<script src='script.js'></script>
+</html>
+
+<!--113m -->

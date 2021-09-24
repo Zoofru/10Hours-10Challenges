@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap');
+
+html {
+    background-image: url('https://www.wallpaperuse.com/wallp/58-583530_m.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.ttlclr {
+    color: rgb(61, 146, 35);
+}
+
+.countdowncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    width: 35%;
+    border-radius: 50px;
+}
