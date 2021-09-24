@@ -1,13 +1,13 @@
 # 10Hours-10Challenges
 
-1. Countdown Timer
+1. Countdown Timer<br />
 Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
 <ul>
   <li>  future date</li>
   <li>  timer</li>
 </ul>
 
-2. Quiz App
+2. Quiz App<br />
 Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
 <ul>
   <li>questions from obj</li>
@@ -15,14 +15,14 @@ Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-9
   <li>at the end show score</li>
 </ul>
 
-3. Recipe App
+3. Recipe App<br />
 Design: https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
 <ul>
   <li>recipe info on click</li>
   <li>fav recipe (w/ localStorage)</li>
 </ul>
 
-4. Notes App
+4. Notes App<br />
 Design: https://uidesigndaily.com/posts/photoshop-notes-widget-day-65
 <ul>
   <li>CRUD note</li>
@@ -30,14 +30,14 @@ Design: https://uidesigndaily.com/posts/photoshop-notes-widget-day-65
   <li>localStorage</li>
 </ul>
 
-5. ToDo App
+5. ToDo App<br />
 Design: http://todomvc.com/examples/react/#/
 <ul>
   <li>CRUD todos</li>
   <li>localStorage</li>
 </ul>
 
-6. Movie App
+6. Movie App<br />
 Design: https://uidesigndaily.com/posts/photoshop-movie-app-mobile-day-193
 <ul>
   <li>list of movies</li>
@@ -46,21 +46,21 @@ Design: https://uidesigndaily.com/posts/photoshop-movie-app-mobile-day-193
   <li>actors</li>
 </ul>
 
-7. GitHub Profiles App
+7. GitHub Profiles App<br />
 Design: https://uidesigndaily.com/posts/photoshop-profile-card-user-day-286
 <ul>
   <li>search for user</li>
   <li>get and show data</li>
 </ul>
 
-8. Drawing App
+8. Drawing App<br />
 <ul>
   <li>canvas</li>
   <li>size</li>
   <li>color</li>
 </ul>
 
-9. Password Generator
+9. Password Generator<br />
 Design: https://codepen.io/FlorinPop17/full/BaBePej
 <ul>
   <li>numbers</li>
@@ -69,7 +69,7 @@ Design: https://codepen.io/FlorinPop17/full/BaBePej
   <li>copy to clipboard</li>
 </ul>
 
-10. Weather App
+10. Weather App<br />
 Design: https://uidesigndaily.com/posts/photoshop-weather-prognosis-day-156
 <ul>
   <li>enter location</li>
