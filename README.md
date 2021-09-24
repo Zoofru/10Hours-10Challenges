@@ -1,13 +1,13 @@
 # 10Hours-10Challenges
 
-Countdown Timer
+1. Countdown Timer
 Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
 <ol>
   <li>future date</li>
   <li>timer</li>
  </ol>
 
-Quiz App
+2. Quiz App
 Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
 <ol>
   <li>questions from obj</li>
@@ -15,14 +15,14 @@ Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-9
   <li>at the end show score</li>
 </ol>
 
-Recipe App
+3. Recipe App
 Design: https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
 <ol>
   <li>recipe info on click</li>
   <li>fav recipe (w/ localStorage)</li>
 </ol>
 
-Notes App
+4. Notes App
 Design: https://uidesigndaily.com/posts/photoshop-notes-widget-day-65
 <ol>
   <li>CRUD note</li>
@@ -30,14 +30,14 @@ Design: https://uidesigndaily.com/posts/photoshop-notes-widget-day-65
   <li>localStorage</li>
 </ol>
 
-ToDo App
+5. ToDo App
 Design: http://todomvc.com/examples/react/#/
 <ol>
   <li>CRUD todos</li>
   <li>localStorage</li>
 </ol>
 
-Movie App
+6. Movie App
 Design: https://uidesigndaily.com/posts/photoshop-movie-app-mobile-day-193
 <ol>
   <li>list of movies</li>
@@ -46,21 +46,21 @@ Design: https://uidesigndaily.com/posts/photoshop-movie-app-mobile-day-193
   <li>actors</li>
 </ol>
 
-GitHub Profiles App
+7. GitHub Profiles App
 Design: https://uidesigndaily.com/posts/photoshop-profile-card-user-day-286
 <ol>
   <li>search for user</li>
   <li>get and show data</li>
 </ol>
 
-Drawing App
+8. Drawing App
 <ol>
   <li>canvas</li>
   <li>size</li>
   <li>color</li>
 </ol>
 
-Password Generator
+9. Password Generator
 Design: https://codepen.io/FlorinPop17/full/BaBePej
 <ol>
   <li>numbers</li>
@@ -69,10 +69,12 @@ Design: https://codepen.io/FlorinPop17/full/BaBePej
   <li>copy to clipboard</li>
 </ol>
 
-Weather App
+10. Weather App
 Design: https://uidesigndaily.com/posts/photoshop-weather-prognosis-day-156
 <ol>
   <li>enter location</li>
   <li>get weather</li>
   <li>have some icons?</li>
 </ol>
+
+Credit: https://github.com/florinpop17/10-projects-10-hours
