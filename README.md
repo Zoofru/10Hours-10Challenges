@@ -3,7 +3,7 @@
 1. Countdown Timer<br />
 Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
 <ul>
-  <li>  future date</li>
+  <li>&nbsp future date</li>
   <li>  timer</li>
 </ul>
 
