@@ -2,10 +2,10 @@
 
 1. Countdown Timer
 Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
-<ol>
+<ul>
   <li>  future date</li>
   <li>  timer</li>
-</ol>
+</ul>
 
 2. Quiz App
 Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
