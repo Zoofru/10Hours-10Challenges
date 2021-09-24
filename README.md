@@ -3,16 +3,16 @@
 1. Countdown Timer<br />
 Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
 <ul>
-  <li>&nbsp future date</li>
-  <li>  timer</li>
+  &nbsp <li>future date</li>
+  &nbsp <li>  timer</li>
 </ul>
 
 2. Quiz App<br />
 Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
 <ul>
-  <li>questions from obj</li>
-  <li>select answer</li>
-  <li>at the end show score</li>
+  &nbsp <li>questions from obj</li>
+  &nbsp <li>select answer</li>
+  &nbsp <li>at the end show score</li>
 </ul>
 
 3. Recipe App<br />
