@@ -3,8 +3,8 @@
 1. Countdown Timer
 Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
 <ol>
-  &nbsp<li>future date</li>
-  &nbsp<li>timer</li>
+  <li>  future date</li>
+  <li>  timer</li>
  </ol>
 
 2. Quiz App
