@@ -1,38 +1,43 @@
 # 10Hours-10Challenges
 
 1. Countdown Timer<br />
-Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
+
 <ul>
+  Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
   <li>future date</li>
   <li>  timer</li>
 </ul>
 
 2. Quiz App<br />
-Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
+
 <ul>
+  Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
   <li>questions from obj</li>
   <li>select answer</li>
   <li>at the end show score</li>
 </ul>
 
 3. Recipe App<br />
-Design: https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
+
 <ul>
+  Design: https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
   <li>recipe info on click</li>
   <li>fav recipe (w/ localStorage)</li>
 </ul>
 
 4. Notes App<br />
-Design: https://uidesigndaily.com/posts/photoshop-notes-widget-day-65
+
 <ul>
+  Design: https://uidesigndaily.com/posts/photoshop-notes-widget-day-65
   <li>CRUD note</li>
   <li>markdown</li>
   <li>localStorage</li>
 </ul>
 
 5. ToDo App<br />
-Design: http://todomvc.com/examples/react/#/
+
 <ul>
+  Design: http://todomvc.com/examples/react/#/
   <li>CRUD todos</li>
   <li>localStorage</li>
 </ul>
