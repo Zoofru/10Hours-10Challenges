@@ -7,14 +7,38 @@ app.use(express.json())
 app.use(require('cors')())
 
 const newNote = async (req, res) => {
+    console.log(req.body.note);
     const note = await models.Notes.create({
-        note: 'hi'
+        note: req.body.note
     })
     res.json({note})
 }
 
-app.get('/newnote', (req, res) => {
+const getAllNotes = async (req, res) => {
+    const allNotes = await models.Notes.findAll()
+    res.json({allNotes})
+}
+
+const delNote = async (req, res) => {
+    console.log(req.params.id);
+    const note = await models.Notes.destroy({
+        where: {
+            id: req.params.id
+        }
+    })
+    res.json({note})
+}
+
+app.post('/newnote', (req, res) => {
     newNote(req, res)
+})
+
+app.get('/allnotes', (req, res) => {
+    getAllNotes(req, res)
+})
+
+app.delete('/delnotes/:id', (req, res) => {
+    delNote(req, res)
 })
 
 app.listen(PORT, () => {
