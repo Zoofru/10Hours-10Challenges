@@ -18,9 +18,9 @@
     height: 10vh;
     background-color: rgb(238, 238, 229);
     display: flex;
-    justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 5px black;
+    padding-left: 10px;
 }
 
 .todoInput {
@@ -28,7 +28,7 @@
     height: 100%;
     background-color: transparent;
     border: none;
-        font-size: xx-large;
+    font-size: xx-large;
     }
 
     .todoInput:focus {
