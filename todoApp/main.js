@@ -16,7 +16,12 @@ todoForm.addEventListener('submit', (e) => {
 
     rmBtn.addEventListener('click', () => {
         document.querySelector('.todo').removeChild(newDiv)
-        // TODO: Remove form storage
+        const items = { ...localStorage }
+        for (let i in items) {
+            if(items[i] === newItem.textContent) {
+                localStorage.removeItem(i)
+            }
+        }
     })
 
     newItem.addEventListener('click', () => {
@@ -76,7 +81,11 @@ const displayAllTodos = () => {
 
         rmBtn.addEventListener('click', () => {
             document.querySelector('.todo').removeChild(newDiv)
-            // TODO: Remove form storage
+            for (let i in items) {
+                if(items[i] === todoItem.textContent) {
+                    localStorage.removeItem(i)
+                }
+            }
         })
 
         document.querySelector('.todo').appendChild(newDiv)
