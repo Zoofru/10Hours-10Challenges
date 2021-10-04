@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #272532;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navBar {
+    background-color: #373B69;
+    display: flex;
+    justify-content: center;
+}
+
+.navTitle {
+    color: #83CFDF;
+}
+
+.splide__slide {
+    margin-left: 20px;
+}
+
+.splide {
+    margin: 10px 10px;
+}
