@@ -20,6 +20,8 @@ const allGen = async () => {
         newDivSplideTrck.appendChild(newUL)
         newDivSplide.appendChild(newDivSplideTrck)
         document.querySelector('.caro').appendChild(newDivSplide)
+
+        getMoviesByGen(i.genre)
     }
 }
 
@@ -30,7 +32,16 @@ const getMoviesByGen = async genre => {
             'x-rapidapi-key': 
         }
     })
-    console.log(res);
+    let movies = res.data.Data.splice(0, 15);
+    let movieIds = []
+
+    for(let i of movies) {
+        movieIds.push(i.imdb_id)
+    }
+
+    for(let i of movieIds) {
+        getMovieById(i)
+    }
 }
 
 const getMovieById = async id => {
@@ -43,6 +54,7 @@ const getMovieById = async id => {
     console.log(res);
 }
 
+// getMoviesByGen('Horror')
 // allGen()
 
 
