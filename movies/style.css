@@ -23,3 +23,11 @@ body {
 .splide {
     margin: 10px 10px;
 }
+
+.genreTitle {
+    color: #83CFDF;
+}
+
+.movieCover:hover {
+    cursor: pointer;
+}
