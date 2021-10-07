@@ -26,6 +26,7 @@ body {
 
 .genreTitle {
     color: #83CFDF;
+    margin-left: 10px;
 }
 
 .movieCover:hover {

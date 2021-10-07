@@ -2,10 +2,10 @@ const allGen = () => {
     const res = axios.get('https://data-imdb1.p.rapidapi.com/genres/', {
         headers: {
             'x-rapidapi-host': 'data-imdb1.p.rapidapi.com',
-            'x-rapidapi-key': 
+            'x-rapidapi-key': 'e0d6a68fb8mshb704bbbc26e1f66p1ad819jsn2a844020c804'
         }
     }).then(res => {
-        let m = res.data.Genres.splice(10, 3)
+        let m = res.data.Genres.splice(4, 3)
         console.log(m);
         let q = 1
         for(let i of m) {
@@ -40,11 +40,11 @@ const getMoviesByGen = genre => {
     const res = axios.get(`https://data-imdb1.p.rapidapi.com/movie/byGen/${genre}/`, {
         headers: {
             'x-rapidapi-host': 'data-imdb1.p.rapidapi.com',
-            'x-rapidapi-key': 
+            'x-rapidapi-key': 'e0d6a68fb8mshb704bbbc26e1f66p1ad819jsn2a844020c804'
         }
     }).then(res => {
         //spliced so it dosent return 1500 movies for each genre
-        let movies = res.data.Data.splice(10, 15);
+        let movies = res.data.Data.splice(10, 10);
         let movieIds = []
         for(let i in movies) {
             if(!movieIds.includes(movies[i].imdb_id)){
@@ -65,7 +65,7 @@ const getMovieById = (id, genre) => {
     const res = axios.get(`https://data-imdb1.p.rapidapi.com/movie/id/${id}/`, {
         headers: {
             'x-rapidapi-host': 'data-imdb1.p.rapidapi.com',
-            'x-rapidapi-key': 
+            'x-rapidapi-key': 'e0d6a68fb8mshb704bbbc26e1f66p1ad819jsn2a844020c804'
         }
     }).then(res => {
         for(let i in res.data){
@@ -91,7 +91,7 @@ allGen()
 const mountSplide = () => {
     new Splide( '#splide1', {
         fixedWidth: '15rem',
-        height: '18%'
+        height: '48%'
     }).mount()
 
     new Splide( '#splide2', {
