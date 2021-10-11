@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+
+body {
+    background-color: #3B3B98;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pGContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.pGContent {
+    background-color: #23235B;
+    height: 30vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pGTitle {
+    color: white;
+    margin: 10px 10px;
+    font-size: x-large;
+}
+
+.pGInfo {
+    width: 90%;
+    margin-right: 5px;
+}
+
+.pass {
+    width: 85%;
+}
+
+.clipboard {
+    height: 80%;
+    width: 12%;
+}
+
+.passInput {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.pGForm {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.pGFormChild {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 2px;
+}
+
+.lengthInput {
+    width: 15%;
+}
+
+.lengthInput:focus {
+    outline: none;
+}
+
+.formSubmit {
+    background-color: #3B3B98;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    height: 4vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+.formSubmit:hover {
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
